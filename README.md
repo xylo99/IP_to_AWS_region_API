@@ -7,11 +7,7 @@ Regions are added to the database and retrieved in a FIFO manner.
 
 | Endpoint                        | GET                  | POST          |
 | -------                         | ---                  | ---           |
-| IP_to_AWS_region_API/api/       | Get the AWS region   | Add a new IP  |
-|                                 | for the most recent  |               |
-|                                 | IP (IPs are          |               |
-|                                 | selected in a FIFO   |               |
-|                                 | manner)              |               |
+| IP_to_AWS_region_API/api/       | Get the AWS region for the most recent IP (IPs are selected in a FIFO manner) | Add a new IP  |
 |                                 |                      |               |
 | IP_to_AWS_region_API/api/ips    | List all IPs used    |   N/A         | (coming soon)
 |                                 |                      |               |
